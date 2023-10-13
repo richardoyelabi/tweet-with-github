@@ -3,7 +3,7 @@ name: tweet from json
 
 on:
   schedule:
-    - cron: '00 17 * * *' # triggers workflow every day at 10 am
+#    - cron: '00 17 * * *' # triggers workflow every day at 10 am
   workflow_dispatch: # allows for manual trigger
         
 jobs:
